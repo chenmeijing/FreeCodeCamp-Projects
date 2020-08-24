@@ -1,0 +1,79 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    background-image: url(https://res.cloudinary.com/fairy/image/upload/v1597988641/Projects/survey-unsplash_qclyfd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    text-align:center;
+    font-size: 22px;
+}
+#survey-form{
+    font-size: 20px;
+    text-align: justify;
+    padding: 15px 50px;
+    margin: 20px 27%;
+    background-color: #cd853f;
+}
+label{
+    
+    display: inline-block;
+}
+input, select,textarea{
+   font-size: 20px;
+   
+}
+input[type= text]{
+   min-width: 510px;
+   line-height: 35px;
+   border: 3px solid #a0522d;
+   border-radius: 8px;
+}
+input[type = email]{
+    min-width: 510px;
+    line-height: 35px;
+    border: 3px solid #a0522d;
+    border-radius: 8px;
+}
+input[type = number]{
+    min-width: 510px;
+    line-height: 35px;
+    border: 3px solid #a0522d;
+    border-radius: 8px;
+} 
+#dropdown{
+    min-width: 520px;
+    height: 45px;
+    line-height: 35px;
+    border: 3px solid #a0522d;
+    border-radius: 8px;
+}
+input[type = radio]{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #a0522d;
+}
+input[type= checkbox]{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #a0522d;
+}
+textarea{
+    min-width: 510px;
+    height: 150px;
+    line-height: 35px;
+    border: 3px solid #a0522d;
+    border-radius: 8px;
+}
+input[type=submit]{
+    min-width: 520px;
+    height: 50px;
+    line-height: 35px;
+    border: 3px solid #fa8072;
+    border-radius: 8px;
+    color: seashell;
+    background-color: #8b4513;
+}
+ 
+
